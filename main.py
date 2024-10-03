@@ -83,7 +83,6 @@ def main():
         ret, frame = cap.read()
         if not ret:
             break
-        pink.process(frame)
         input_display.process(frame)
         
 
